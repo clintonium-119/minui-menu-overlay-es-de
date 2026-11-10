@@ -1,3 +1,45 @@
+# MinUI Menu (Overlay) for ES-DE
+
+A fork of Anthony Caccese's [MinUI Menu for ES-DE](https://github.com/anthonycaccese/minui-menu-es-de) with a few layout tweaks. It's the theme in the screenshots of [ES-DE Overlay](https://github.com/clintonium-119/es-de-overlay), an in-game menu for ES-DE on Android that takes its look from the ES-DE theme you use. The theme works on its own too; you don't need the overlay.
+
+## What this fork changes
+
+- **Name.** It shows as *MinUI Menu (Overlay)* in ES-DE's theme list, so it can sit beside the original.
+- **List spacing.** With font size Small, the line spacing is 1.75 instead of 2.0115, so ten whole rows fill the list instead of 8.75.
+- **Scrolling names.** A name too long for its row starts scrolling after 1 second (`textHorizontalScrollDelay`).
+- **Game art.** In every variant that shows art (Boxart, Screenshot, Title Screen, Physical Media, Miximage, Marquee), the art is taller and sits higher. It now fills its box (`cropSize`) rather than fitting inside it (`maxSize`), for 4:3 and 16:9 screens.
+- **Corners.** On 4:3 screens the art has 10 px rounded corners.
+
+Everything else is as upstream, which is described below.
+
+## Recommended settings on the Retroid Pocket Nova
+
+In ES-DE's **UI Settings**:
+
+| Setting | Value |
+| --- | --- |
+| Theme | MinUI Menu (Overlay) |
+| Theme variant | List: Screenshot |
+| Theme color scheme | Dark (Bold Font) |
+| Theme font size | Small |
+| Theme aspect ratio | Automatic |
+
+Use Small. This fork tightens Small's line spacing so ten whole rows fill the list, which keeps ES-DE's scroll jumps landing on full rows.
+
+## Install
+
+1. Put the theme in ES-DE's themes folder as `minui-menu-overlay-es-de`. On Android that's `ES-DE/themes/minui-menu-overlay-es-de/` in the ES-DE data folder you chose (on the SD card or internal storage). Either clone it there or download the ZIP and rename the folder.
+2. Restart ES-DE, then pick **MinUI Menu (Overlay)** under UI Settings > Theme.
+
+## Credits and licence
+
+- The original MinUI design is by [Shaun Inman](https://github.com/shauninman/MinUI).
+- The port to ES-DE is by [Anthony Caccese](https://github.com/anthonycaccese/minui-menu-es-de).
+- This fork's tweaks are by clintonium-119.
+- Like upstream, the theme is licensed Creative Commons BY-NC-SA (attribution, non-commercial, share-alike), as stated at the top of `theme.xml`. The changes above are marked there too.
+
+---
+
 # MinUI Menu for ES-DE
 
 This is a translation of the MinUI menu interface (originally designed & created by [Shaun Inman](https://github.com/shauninman/)) for ES-DE.

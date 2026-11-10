@@ -162,8 +162,10 @@ based on 640x480
          <video name="
             game-art
             ">
-            <pos>0.928125 0.50625</pos><!-- 594 243 -->
-            <maxSize>0.3625 0.60416667</maxSize><!-- 232 290 -->
+            <pos>0.928125 0.44166667</pos><!-- 594 212 -->
+            <cropSize>0.3625 0.73333333</cropSize><!-- 232 352 -->
+            <imageCornerRadius>0.0078125</imageCornerRadius><!-- 10px at 1280 wide -->
+            <videoCornerRadius>0.0078125</videoCornerRadius>
          </video>
       </view>
    </variant>

@@ -5,6 +5,9 @@ ported from:      https://github.com/shauninman/MinUI
 ported by:        Anthony Caccese
 license:          creative commons CC-BY-NC-SA
 https://github.com/anthonycaccese/minui-menu-es-de
+modified by:      clintonium-119 for ES-DE Overlay (list spacing, marquee
+                  delay, game art); see README.md
+https://github.com/clintonium-119/minui-menu-overlay-es-de
 -->
 <theme>
 
@@ -131,6 +134,7 @@ https://github.com/anthonycaccese/minui-menu-es-de
          <fontPath>${textlistFont}</fontPath>
          <fontSize>${listFontSize}</fontSize>
          <lineSpacing>${listLineSpacing}</lineSpacing>
+         <textHorizontalScrollDelay>1</textHorizontalScrollDelay>
          <selectorColor>00000000</selectorColor>
          <selectedBackgroundColor>${textlistSelectedBackgroundColor}</selectedBackgroundColor>
          <selectedColor>${textlistSelectedColor}</selectedColor>
@@ -186,7 +190,7 @@ https://github.com/anthonycaccese/minui-menu-es-de
       <variables>
          <systemStatusHeight>0.033333333333333</systemStatusHeight><!-- 16 -->
          <listFontSize>0.041666666666667</listFontSize><!-- 20 -->
-         <listLineSpacing>2.0115</listLineSpacing>
+         <listLineSpacing>1.75</listLineSpacing>
          <helpsystemFontSize>0.041666666666667</helpsystemFontSize><!-- 20 -->
       </variables>
    </fontSize>
